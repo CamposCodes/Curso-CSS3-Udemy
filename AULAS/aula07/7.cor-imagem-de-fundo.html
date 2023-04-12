@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cor e Imagem de fundo</title>
+        <style type="text/css">
+            .fundo {
+                /* você pode usar tudo de uma vez com background  */
+                background: #e59500 url('../assets/bg.png') no-repeat fixed center center;
+            }
+            .imagem__fundo {
+                background-image: url('../assets/bg.png');
+                /* background-repeat: no-repeat; */
+                /* background-repeat: repeat; */
+                /* background-repeat: repeat-x; */
+                background-repeat: repeat-y;
+
+                /* -->a imagem rola junto com o conteudo */
+                background-attachment: scroll;
+                /* -->fixa como plano de fundo */
+                background-attachment: fixed;
+
+                /* background-position: center center; alinha horizontal e vertical */
+            }
+        </style>
+    </head>
+    <body class="imagem__fundo">
+        <h1>Texto</h1>
+    </body>
+</html>

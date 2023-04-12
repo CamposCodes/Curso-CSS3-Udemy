@@ -1,0 +1,41 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table {
+    width: 600px;
+    border: 1px solid gray;
+    /*bordas colpsam e se tornam uma só*/
+    /* border-collapse: collapse; */
+}
+
+th,
+td {
+    /* border: 1px solid black; */
+    padding: 7px;
+}
+
+th {
+    text-transform: uppercase;
+    border-top: 1px solid gray;
+    border-bottom: 2px solid gray;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+}
+
+tr.alternado {
+    background: #efefef;
+}
+tr:hover {
+    background: #c4dcf09e;
+    border-radius: 0.2em;
+}
+td:hover {
+    background: #c4dcf0be;
+    border-radius: 0.2em;
+}
+
+.numero {
+    text-align: right;
+}

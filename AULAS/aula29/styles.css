@@ -1,0 +1,39 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+fieldset {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+
+/* Atributo de tipo 
+input[type='text']*/
+
+input {
+    width: 20em;
+    padding: 0.3em;
+}
+
+input.radio,
+input.checkbox,
+input.submit {
+    width: auto;
+}
+
+textarea {
+    width: 20em;
+    height: 10em;
+}

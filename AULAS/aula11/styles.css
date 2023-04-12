@@ -1,0 +1,42 @@
+.conteudo {
+    border: 1px solid red;
+    /* padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; */
+
+    /* padding: 20px 15px 10px 5px; */
+
+    /* padding: 20px 10px; */
+
+    padding: 20px;
+    /* 
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin: 20px 15px 10px 5px;
+    margin: 20px 10px; */
+
+    margin: 20px;
+
+    width: 150px;
+}
+
+.conteudo2 {
+    /* A margem maior sempre prevalece sobre a menor  */
+    margin: 50px;
+    border: 1px solid red;
+    width: 150px;
+}
+
+#noticia {
+    background-color: #d9d9d9;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 0px 0px 100px 0px;
+}
+
+h2 {
+    margin: 10px 0px;
+}

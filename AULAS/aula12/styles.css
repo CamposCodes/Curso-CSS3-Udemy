@@ -1,0 +1,22 @@
+.conteudo {
+    background: blue;
+    border: solid 1px gray;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+.conteudo1 {
+    background: red;
+    border: solid 1px gray;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+.conteudo2 {
+    background: green;
+    border: solid 1px gray;
+    width: 200px;
+    height: 200px;
+}
