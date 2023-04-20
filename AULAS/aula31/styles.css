@@ -1,0 +1,32 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* .caixa {
+    width: 400px;
+    background: # dedede url('../assets/arredondamento/topo.png') no-repeat left top;
+}
+
+.caixa h2 {
+    padding: 10px 20px 0px 20px;
+}
+
+.caixa p {
+    padding: 0px 20px 20px 20px;
+    background: url('../assets/arredondamento/baixo.png') no-repeat left bottom;
+} */
+
+.caixa {
+    width: 400px;
+    background: #dedede url('../assets/arredondamento/fundo-arredondamento.png') repeat-y;
+}
+
+.caixa h2 {
+    padding: 10px 20px 0px 20px;
+    background: url('../assets/arredondamento/topo2.png') no-repeat left top;
+}
+
+.caixa .ultimo {
+    background: url('../assets/arredondamento/baixo2.png') no-repeat left bottom;
+    padding-bottom: 20px;
+}

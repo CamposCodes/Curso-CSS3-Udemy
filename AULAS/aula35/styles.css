@@ -1,0 +1,35 @@
+/* RECONHECENDO UMA FONT CSS  */
+
+@font-face {
+    font-family: 'Who Are You';
+    src: url('./assets/Whoareyou.woff');
+}
+
+@font-face {
+    font-family: 'Vintage';
+    src: url('./assets/VintageOne.woff');
+}
+
+@font-face {
+    font-family: 'Celtic';
+    src: url('./assets/stonehenge.woff');
+}
+
+/* RECONHECENDO UMA FONT CSS  */
+
+body {
+    font-family: 'Who Are You';
+}
+
+.new-font1 {
+    font-family: 'Celtic';
+}
+.new-font2 {
+    font-family: 'Vintage';
+}
+.new-font3 {
+    font-family: 'Who Are You';
+}
+h2 {
+    font-size: 2em;
+}
