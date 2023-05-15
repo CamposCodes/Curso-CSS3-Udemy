@@ -104,11 +104,17 @@ section#galeria a {
     float: left;
     padding: 17px 15px 17px 15px;
     margin: 10px 0 0 20px;
+    transition: all 0.5s;
 }
 
 section#galeria img {
     margin-left: px;
     margin-top: 3px;
+    transition: all 0.5s;
+}
+section#galeria img:hover,
+section#galeria a:hover {
+    transform: scale(1.05);
 }
 
 article#video {
