@@ -1,0 +1,15 @@
+header {
+    border: 1px solid #ccc;
+    background: #a5a5a5;
+    padding: 10px;
+}
+
+nav {
+    border: 1px solid green;
+    background: #f2f2f2;
+    padding: 10px;
+}
+
+footer {
+    background: #c9c9c9;
+}

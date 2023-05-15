@@ -1,0 +1,49 @@
+/* container  */
+#conteudo {
+    background: #dcdcdc;
+    height: 600px;
+
+    /* Define o container como flex  */
+    display: flex;
+
+    /*
+    flex-direction:  
+    row=> padrao/ em linha  OU  row-reverse=> linha ordem reversa
+    column=> em coluna  OU  column-reverse=> em coluna ordem reversa
+    */
+
+    flex-direction: row;
+
+    /*  flex-wrap: define se vai existir quebra se faltar espaço
+    nowrap=> não quebra
+    wrap=>  quebra
+    wrap-reverse=> quebra em ordem reversa
+    */
+
+    flex-wrap: nowrap;
+
+    /*justify-content: 
+    flex-start=> padrao (colado no canto superior esquerdo)
+    flex-end=> no fim (colado no canto superior direito)
+    center=> items centralizados
+    space-between=> distribui os itens com espaçamento entre eles (ultimo e primeiro item ficam colados)
+    space-around=> distribui os itens com espaçamento entre eles incluindo o 1º e o ultimo
+    */
+    justify-content: space-around; /*Alinha na horizontal*/
+
+    /*align-itens: 
+    stretch -> estica 
+    center -> centro
+    flex-start -> colado na parte superior
+    flex-end -> colado na parte inferior
+    baseline -> usa a linha base pra fazer o alinhamento linha do topo
+
+    */
+    align-items: baseline;
+}
+/* flex itens do container  */
+.item {
+    background: #fff;
+    border: 1px solid gray;
+    margin: 10px;
+}

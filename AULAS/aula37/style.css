@@ -1,0 +1,26 @@
+#caixa {
+    height: 300px;
+    width: 300px; /*+50px de padding p cada lado (+100px de width)*/
+    background: #b9c941;
+
+    padding: 50px;
+    /* independente do padding a caixa matem sua largura og  */
+    box-sizing: border-box;
+    /* arredondar caixa  */
+    /* border-radius: 10px 50px 80px 100px; */
+    /* border-radius: 10px 80px; */
+}
+
+.arredondamento {
+    border-radius: 150px;
+}
+
+/* EXISTEM ALGUMAS PROPRIEDADES CSS QUE NÃO SÃO SUPORTADAS 
+POR TODOS OS NAVEGADORES, PORTANTO USAM-SE PREFIXOS ANTES DAS 
+PROPRIEDADES COMO É CASO DO BERDER-RADIUS e BOX-SIZING(nescessarios para beowser mais antigos)
+
+=> MOZILA -> -moz-border-radius
+=> CHROME -> -webkit-border-radius
+
+
+*/

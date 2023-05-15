@@ -1,0 +1,39 @@
+/* container  */
+#conteudo {
+    background: #dcdcdc;
+    height: 600px;
+    /* Base para navegadores  */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/* flex itens do container  */
+.item {
+    width: 200px;
+    height: 100px;
+    background: #fff;
+    border: 1px solid gray;
+    margin: 10px;
+
+    /*flex-grow: => define a capacidade de aumento de um item dentro do container  */
+    /*flex-shrink: => define a capacidade de diminuição de um item dentro do container  */
+
+    flex-grow: 0;
+    flex-shrink: 1;
+
+    /*flex-basis -> Indica o tamanho inicial do flex item antes da distribuição do espaço restante*/
+    flex-basis: auto; /*tamanho padrão - definido anteriormente*/
+    flex-basis: 100px;
+}
+
+.item1 {
+    flex-shrink: 1;
+}
+.item2 {
+    flex-shrink: 2;
+    flex-grow: 1;
+}
+.item3 {
+    flex-shrink: 5; /*quanto maior o numero mais ele diminuiquando o container diminui*/
+}

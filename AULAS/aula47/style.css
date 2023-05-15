@@ -1,0 +1,57 @@
+/* container  */
+#conteudo {
+    background: #dcdcdc;
+    height: 600px;
+    display: flex;
+}
+
+/* flex itens do container  */
+.item {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border: 1px solid gray;
+    margin: 10px;
+
+    /*flex-grow: => define a proporção de espaço ocupado por um item dentro do container  */
+
+    flex-grow: 0;
+
+    /* flex-grow:
+    -> com 0 fica com o tamanho definido
+    -> com 1 ocupa todo o tamanho possivel
+    */
+}
+
+.item1 {
+    flex-grow: 1; /* cresce até o final do container */
+}
+.item2 {
+    flex-grow: 2; /* cresce o dobro até o final do container */
+}
+.item3 {
+    flex-grow: 2; /* cresce o dobro até o final do container */
+}
+.item4 {
+    flex-grow: 0.5;
+}
+
+/* Pra ordenar flex itens ==>  por padrão o elemento tem 'order:0' */
+.ordem {
+    order: -1;
+}
+.ordem1 {
+    order: 1;
+}
+.ordem2 {
+    order: 2;
+}
+.ordem3 {
+    order: 3;
+}
+.ordem4 {
+    order: 4;
+}
+.ordem5 {
+    order: 5;
+}

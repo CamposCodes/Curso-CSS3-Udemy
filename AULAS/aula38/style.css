@@ -1,0 +1,21 @@
+#caixa {
+    height: 300px;
+    width: 300px;
+    /* linear gradient */
+    background: linear-gradient(110deg, #ff0000, #d9ff00, #ffea00);
+    /* radial gradient */
+    background: radial-gradient(#ff0000, #d9ff00, #ffea00);
+    /* background-image: url('./imagens/camera.png'); */
+}
+#caixa h1 {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+/* 
+
++ Transparencias -> com rgbA, onde no ultimo parametro se usa valores 1.0 a 0.0 de acordo com a transparencia
+
++ Gradientes -> existem dois principais tipos 
+    (linear -> em linha, onde se pode cololcar a posição de onde começa o gradiente(to left, to bottom) ou os gaus (deg) alem das cores do gradiente)
+    (radial -> em circulo, onde se coloca as cores do gradiente) 
+    */
