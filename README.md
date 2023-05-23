@@ -1,0 +1,3 @@
+# Curso-CSS3-Udemy
+
+Minha jornada no curso de CSS3 com o professor Jamilton Damasceno foi verdadeiramente transformadora. Em apenas 17 horas, fui imerso em um ambiente prático e estimulante, onde pude explorar todos os aspectos do CSS3 e aprimorar minhas habilidades em design web. Com exercícios desafiadores e projetos envolventes, aprendi a utilizar os seletores CSS de forma estratégica, dominar animações e transições, e criar layouts responsivos que se adaptam perfeitamente a diferentes dispositivos. A realização desse curso foi fundamental para o meu crescimento profissional como desenvolvedor Front-end, e estou confiante de que essa experiência enriquecedora impulsionará minha carreira.
